@@ -1,8 +1,8 @@
 simplyCountdown('.simply-countdown', {
-    year: 2022,
-    month: 10,
-    day: 22,
-    hours: 16,
+    year: 2023,
+    month: 03,
+    day: 18,
+    hours: 20,
     minutes: 0,
     seconds: 0,
     words: {
@@ -26,7 +26,7 @@ addClassesToElements('simply-word', 'text-md sm:text-md md:text-xl lg:text-xl xl
 document.getElementById('btn-add-calendar').onclick = event => {
     const showCalendar = event.target.dataset.showCalendar
     const calendarMenu = document.getElementById('calendar-menu')
-    if(showCalendar === "false")
+    if (showCalendar === "false")
         calendarMenu.classList.remove('hidden')
     else
         calendarMenu.classList.add('hidden')
@@ -36,7 +36,7 @@ document.getElementById('btn-add-calendar').onclick = event => {
 document.getElementById('btn-collapse-menu').onclick = event => {
     const isExpanded = event.target.dataset.expanded
     const collapseMenu = document.getElementById('collapse-menu')
-    if(isExpanded === "false")
+    if (isExpanded === "false")
         collapseMenu.classList.replace('hidden', 'collapsed')
     else
         collapseMenu.classList.replace('collapsed', 'hidden')
